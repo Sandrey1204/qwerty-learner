@@ -4,6 +4,17 @@ import { calcChapterCount } from '@/utils'
 // 中国考试
 const chinaExam: DictionaryResource[] = [
   {
+    id: 'short-100',
+    name: '短语练习100',
+    description: '短语练习100',
+    category: '短语练习100',
+    tags: ['短语练习100'],
+    url: '/dicts/short-100.json',
+    length: 22,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
     id: 'cet4',
     name: 'CET-4',
     description: '大学英语四级词库',
